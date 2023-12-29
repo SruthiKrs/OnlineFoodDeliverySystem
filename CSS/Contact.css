@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.div2{
+    width: 100%;
+}
+.div2 img{
+    height: 80vh;
+    width: 100%;
+}
+.div2 h3{
+    text-align: center;
+    margin-top: -250px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.div3{
+    margin-top: 220px;
+    padding: 20px;
+
+}
+
+
+.div3 p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color:green;
+    
+    
+}
+
+.enquiry{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+} 
+.left{
+    flex-basis: 60%;
+    box-shadow: 1px 1px 2px 2px gray;
+    padding:40px 60px;
+}
+.right{
+    flex-basis: 40%;
+    padding:40px;
+    color: white;
+   
+    background:linear-gradient(darkblue,lightblue);
+}
+.right h3{
+    padding-bottom: 20px;
+}
+.right li{
+    list-style-type: none;
+    font-weight: bolder;
+    padding: 15px;
+
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input .data{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+    padding-bottom: 5px;
+    
+}
+textarea{
+    width: 100%;
+    border: 1px solid lightgray;
+    outline: none;
+    padding: 10px;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+}
+button{
+    background: teal;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 40%;
+    cursor: pointer;
+   
+}
+.left h3{
+    color: darkblue;
+    font-weight: 600px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+@media screen and (max-width:950px){
+    .left{
+        display: block;
+    }
+}
+@media screen and (max-width:600px){
+    .enquiry{
+        flex-direction: column;
+
+    }
+    .right{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:454px){
+    .input{
+        flex-direction: column;
+    }
+    .input .data{
+        flex-basis: 100%;
+    }
+    button{
+        margin-left: 0;
+    }
+}
