@@ -259,7 +259,7 @@ i{
     }
     .image{
         margin:0px;
-        padding:0px;
+        padding:0px 30px;
     }
     
     
@@ -296,5 +296,15 @@ i{
     }
     .text{
         padding:0px 20px;
+    }
+    .button{
+        margin:10px 0px;
+    }
+    .image{
+       margin:0px;
+       padding:0px;
+    }
+    .image img{
+        padding:10px 20px 10px 50px;
     }
 }
