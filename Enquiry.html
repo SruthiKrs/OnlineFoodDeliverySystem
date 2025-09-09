@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Food Delivery</title>
+        <link rel="stylesheet" href="CSS\Enquiry.css">
+        <link rel="stylesheet" href="CSS\NavFoot.css">
+        <script src="https://kit.fontawesome.com/304c541a2c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="div">
+            <div class="header">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="IMAGES\logo-removebg-preview.png" width="125px";>
+                </div>
+                <nav>
+
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="About.html" class="dropbtn">About</a>
+                        <div class="dropdown-menu">
+                            <a href="#">Administration</a>
+                            <a href="#">Mission & Vission</a>
+                        </div>
+                    </li>
+                    <li><a href="Order.html">Order</a></li>
+                    <li><a href="Enquiry.html" id="active">Enquiry</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+            </nav>
+            <img src="IMAGES\menu.png" class="menu" onclick="menudisplay()">
+            </div> 
+            <div class="div2">
+                <img src="IMAGES\juse.jpg">
+                <h3>Enquiry</h3>
+            </div>
+            <div class="div3">
+                <h2>Get In Touch</h2>
+                <p>Have any questions or Suggestion</p>
+                <div class="enquiry">
+                    <div class="left">
+                        <h3>Send your request</h3>
+                        <form>
+                            <div class="input">
+                                <div class="data">
+                                    <label>Name</label>
+                                    <input type="text" placeholder="Enter your Name">
+                                </div>
+                                <div class="data">
+                                    <label>Email Address</label>
+                                    <input type="text" placeholder="email@gmail.com">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <div class="data">
+                                    <label>Phone Number</label>
+                                    <input type="text" placeholder="Phone Number">
+                                </div>
+                                <div class="data">
+                                    <label>Alternate Number</label>
+                                    <input type="text" placeholder="Alternate Number">
+                                </div>
+                               
+                            </div>
+                            <div class="input">
+                                <div class="data">
+                                    <label>Address</label>
+                                    <input type="text" placeholder="Type your address">
+                                </div>
+                                <div class="data">
+                                    <label>Subject</label>
+                                    <input type="text" placeholder="Type your message">
+                                </div>
+                            </div>
+                            <label>Message</label>
+                            <textarea rows="5" placeholder="Your Message"></textarea>
+                            <button type="submit">Send</button> 
+                        </form>
+                    </div>
+                    <div class="right">
+                        <h3>Reach Us</h3>
+                        <img src="IMAGES\enquiry-removebg-preview.png">
+                    </div>
+                </div>
+                </div>
+
+                
+            </div>
+</div>
+</div>
+
+
+
+<div class="footer">
+    <div class="foot">
+        <div class="frow">
+            <div class="footc1">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Order.html">Order</a></li>
+                    <li><a href="Enquiry.html" class="active">Enquiry</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footc2">
+                <h3>Download Our App</h3>
+                <p>Downlaod App for Android and ios mobile phone.</p>
+                <img src="IMAGES\logo-removebg-preview.png" width="125px";>
+                <p>Our purpose is to sustainably Make the pleasure and benefits of sports Accessible to others.</p>
+            </div>
+            <div class="footc3">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="">Cash On Delivery</a></li>
+                    <li><a href="">24/7 Services</a></li>
+                    <li><a href="">Fast Delivery</a></li>
+                    <li><a href="">Afforadable Prices</a></li>
+                    <li><a href="">Trustable</a></li>
+                </ul>
+            </div>
+           
+          
+        </div>
+       
+    </div>
+    
+    
+</div>
+<hr color="black">
+<div class="footrow2">
+    <div class="copyright">
+        <p>&#169;2023 GoFood. All Rights Reserved.</p>
+    </div>
+    <div class="social">
+        <i class="fa-brands fa-facebook" style="color: darkblue;"></i>
+        <i class="fa-brands fa-twitter"  style="color:cornflowerblue;"></i>
+        <i class="fa-brands fa-youtube"  style="color: red;"></i>
+        <i class="fa-brands fa-instagram" style="color: crimson;"></i>
+    </div>
+</div>
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menudisplay()
+    {
+        if(MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight="200px"; 
+        }
+        else{
+            MenuItems.style.maxHeight="0px"; 
+        }
+    }
+</script>
+</body>
+</html>

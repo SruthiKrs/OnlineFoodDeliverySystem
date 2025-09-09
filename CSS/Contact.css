@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.div2{
+    width: 100%;
+}
+.div2 img{
+    height: 80vh;
+    width: 100%;
+}
+.div2 h3{
+    text-align: center;
+    margin-top: -250px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 3px 3px 3px black;
+}
+
+.div3{
+    margin-top: 220px;
+    padding: 20px;
+
+}
+
+
+.div3 p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.enquiry{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin: 30px 0px;
+
+} 
+.right{
+    padding:40px;
+}
+.right{
+    flex-basis: 60%;
+    box-shadow: 1px 1px 2px 2px gray;
+}
+.left{
+    flex-basis: 40%;
+    height:100%;
+
+}
+.left iframe{
+    width:100%;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input .data{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+    padding-bottom: 5px;
+    
+}
+textarea{
+    width: 100%;
+    border: 1px solid lightgray;
+    outline: none;
+    padding: 10px;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+}
+button{
+    background: teal;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 40%;
+    cursor: pointer;
+   
+}
+.right h3{
+    color: rgb(184, 30, 30);
+    font-weight: 600px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+@media screen and (max-width:950px){
+    .right{
+        display: block;
+    }
+}
+@media screen and (max-width:800px){
+    .enquiry{
+        flex-direction: column;
+
+    }
+    .left{
+        margin-bottom: 30px;
+    }
+    .input{
+        flex-direction: column;
+    }
+    .input .data{
+        flex-basis: 100%;
+    }
+}

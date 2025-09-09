@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+
+}
+.div2{
+    width: 100%;
+}
+.div2 img{
+    height: 80vh;
+    width: 100%;
+}
+.div2 h3{
+    text-align:center;
+    margin-top: -250px;
+    font-size: 50px;
+    font-weight: bolder;
+     color: whitesmoke;
+    text-shadow: 3px 3px 3px black;
+}
+.about{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text{
+    flex-basis: 50%;
+    min-width: 300px;
+    margin-top: 50px;
+    padding-right: 50px;
+}
+.image{
+    flex-basis: 50%;
+    min-width: 300px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.image img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.text h1{
+    font-size: 40px;
+    line-height: 60px;
+    margin: 25px 0;
+    margin-left: 60px;
+    font-family: MV Boli;
+    font-weight: bold;
+    
+}
+.text p{
+    margin-left: 60px;
+    font-family: MV Boli;
+}
+.button{
+    display: inline-block;
+    background-color:yellowgreen;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+    font-weight: bold;
+    margin-left: 60px;
+    
+    
+}
+.button:hover{
+    background-color:darkgrey;
+    color: black;
+}
+@media screen and (max-width:660px){
+    .text h1{
+        margin-left: 0;
+        
+    }
+    .text,.image{
+        flex-basis: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .text p{
+        margin-left: 0;
+    }
+    .text{
+        align-items: center;
+        margin-top: 0;
+       text-align: center;
+    }
+    .image img{
+        margin-top: 40px;
+        width:90%;
+        height: 50%;
+    }
+}
+
+.services{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.services h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 70px;   
+}
+.img{
+    flex-basis: 15%;
+    min-width: 250px;
+    padding: 15px;
+    
+}
+.img img{
+    width: 100%;
+    height: 200px;
+    border: 12px inset lightblue;
+}
+.img h4{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+@media screen and (max-width:660px){
+    .box .img{
+        padding: 10px;
+        flex-basis: 50%;
+    }
+}
+@media screen and (max-width:470px){
+    .box .img{
+        flex-basis: 100%;
+    }
+}
+
+
+.types{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.country{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.types h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;   
+}
+.foodimg{
+    flex-basis: 30%;
+    
+    
+}
+.foodimg img{
+    padding: 20px;
+    width: 100%;
+    height: 250px;
+    
+    
+}
+.foodimg h5{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 25px;
+}
+.foodimg p{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+@media screen and (max-width:700px){
+.foodimg{
+    flex-basis: 50%;
+    
+}
+    
+}
+@media screen and (max-width:642px){
+    .foodimg{
+        flex-basis: 100%;
+        
+    }
+        
+    }

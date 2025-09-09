@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Food Delivery</title>
+        <link rel="stylesheet" href="CSS\About.css">
+        <link rel="stylesheet" href="CSS\NavFoot.css">
+        <script src="https://kit.fontawesome.com/304c541a2c.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+            <div class="header">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="IMAGES\logo-removebg-preview.png" width="125px";>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a href="About.html" class="dropbtn" id="active">About</a>
+                            <div class="dropdown-menu">
+                                <a href="#">Administration</a>
+                                <a href="#">Mission & Vission</a>
+                            </div>
+                        </li>
+                        <li><a href="Order.html">Order</a></li>
+                        <li><a href="Enquiry.html">Enquiry</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                </nav>
+                <img src="IMAGES\menu.png" class="menu" onclick="menudisplay()">
+            </div>
+            </div>
+            <div class="div2">
+                <div class="banner">
+                    <img src="IMAGES\icecream.webp">
+                <h3>About Us</h3>
+                </div>
+                <div class="about">
+                    <div class="image">
+                        <img src="IMAGES\about-removebg-preview.png">
+                    </div>
+                    <div class="text">
+                        <h1>Welcome To GoFood World</h1>
+                        <p>Food is not a rational. Food is culture, habit, craving & identity.Life is a combination of magic and pasta. Our purpose is to provide the favourable foods for the people around us. We provide services like cash on delivery, afforadable price, full time services and fast delivery. </p>
+                        <a href="Home.html" class="button">Read More</a>
+                    </div>
+                </div>
+                <div class="types">
+                    <h2>Foods We Serve</h2>
+                    <div class="country">
+                        <div class="foodimg">
+                            <img src="IMAGES\indian.jpg">
+                            <h5>Indian</h5>
+                            <p> Indian food is renowned worldwide for its wonderful use of herbs and spices</p>
+                        </div>
+                        <div class="foodimg">
+                            <img src="IMAGES\chinese.jpg">
+                            <h5>Chinese</h5>
+                            <p>Chinese food has diversified color and excellent taste as its main features</p>
+                        </div>
+                        <div class="foodimg">
+                            <img src="IMAGES\italian.jpeg">
+                            <h5>Italian</h5>
+                            <p>Italian cuisine is popular because it's delicious, authentic and healthy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="services">
+                    <h2>Our Services</h2>
+                    <div class="box">
+                    <div class="img">
+                        <img src="IMAGES\24.jpg">
+                        <h4>24/7 Services</h4>
+                    </div>
+                    <div class="img">
+                        <img src="IMAGES\fdeli.webp">
+                        <h4>Fast Delivery</h4>
+                    </div>
+                    <div class="img">
+                        <img src="IMAGES\cdeli.jpg">
+                        <h4>Cash On Delivery</h4>
+                    </div>
+                    <div class="img">
+                        <img src="IMAGES\afforadable.webp">
+                        <h4>Affordable Price</h4>
+                    </div>
+                </div>
+                </div>
+                
+                </div>  
+
+                <div class="footer">
+                    <div class="foot">
+                        <div class="frow">
+                            <div class="footc1">
+                                <h3>Quick Links</h3>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="About.html" class="active">About</a></li>
+                                    <li><a href="Order.html">Order</a></li>
+                                    <li><a href="Enquiry.html">Enquiry</a></li>
+                                    <li><a href="Contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="footc2">
+                                <h3>Download Our App</h3>
+                                <p>Downlaod App for Android and ios mobile phone.</p>
+                                <img src="IMAGES\logo-removebg-preview.png" width="125px";>
+                                <p>Our purpose is to sustainably Make the pleasure and benefits of sports Accessible to others.</p>
+                            </div>
+                            <div class="footc3">
+                                <h3>Our Services</h3>
+                                <ul>
+                                    <li><a href="">Cash On Delivery</a></li>
+                                    <li><a href="">24/7 Services</a></li>
+                                    <li><a href="">Fast Delivery</a></li>
+                                    <li><a href="">Afforadable Prices</a></li>
+                                    <li><a href="">Trustable</a></li>
+                                </ul>
+                            </div>
+                           
+                          
+                        </div>
+                       
+                    </div>
+                    
+                    
+                </div>
+                <hr color="black">
+                <div class="footrow2">
+                    <div class="copyright">
+                        <p>&#169;2023 GoFood. All Rights Reserved.</p>
+                    </div>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook" style="color: darkblue;"></i>
+                        <i class="fa-brands fa-twitter"  style="color:cornflowerblue;"></i>
+                        <i class="fa-brands fa-youtube"  style="color: red;"></i>
+                        <i class="fa-brands fa-instagram" style="color: crimson;"></i>
+                    </div>
+                </div>
+                <script>
+                    var MenuItems=document.getElementById("MenuItems");
+                    MenuItems.style.maxHeight="0px";
+                    function menudisplay()
+                    {
+                        if(MenuItems.style.maxHeight=="0px")
+                        {
+                            MenuItems.style.maxHeight="200px"; 
+                        }
+                        else{
+                            MenuItems.style.maxHeight="0px"; 
+                        }
+                    }
+                </script>
+</body>
+</html>
