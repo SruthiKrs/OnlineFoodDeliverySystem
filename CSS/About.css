@@ -81,7 +81,7 @@
     }
     .text,.image{
         flex-basis: 100%;
-        padding: 0;
+        padding: 10px;
         margin: 0;
     }
     .text p{
@@ -90,12 +90,15 @@
     .text{
         align-items: center;
         margin-top: 0;
-       text-align: center;
+        text-align: center;
     }
     .image img{
         margin-top: 40px;
         width:90%;
         height: 50%;
+    }
+    .button{
+        margin-left: 0px;
     }
 }
 
@@ -133,9 +136,15 @@
 }
 @media screen and (max-width:660px){
     .box .img{
-        padding: 10px;
-        flex-basis: 50%;
+        flex-basis: 100%;
     }
+    .services{
+        padding:0px 10px;
+    }
+    .services h2{
+        padding: 30px 0px;
+    }
+
 }
 @media screen and (max-width:470px){
     .box .img{
@@ -185,7 +194,7 @@
 }
 @media screen and (max-width:700px){
 .foodimg{
-    flex-basis: 50%;
+    flex-basis: 100%;
     
 }
     

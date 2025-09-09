@@ -30,11 +30,7 @@
     font-weight: bolder;
     text-align: center;
 }
-.div3 p{
-    text-align: center;
-    font-size: 24px;
-    color: green;
-}
+
 
 /*----Form------*/
 .enquiry{
@@ -106,14 +102,7 @@ button{
     .left,.right{
         display: block;
     }
-}
-@media screen and (max-width:600px){
-    .enquiry{
-        flex-direction: column;
-    }
-}
-@media screen and (max-width:363px){
-    .input{
+        .input{
         flex-direction: column;
     }
     .input .data{
@@ -122,4 +111,8 @@ button{
     button{
         margin-left: 0;
     }
+    .enquiry{
+        flex-direction: column;
+    }
+
 }
